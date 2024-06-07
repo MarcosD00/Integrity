@@ -30,11 +30,8 @@ $agent_list                     =  (array)get_user_meta($userID, 'current_agent_
         <div class="col-md-4 wpestate_dashboard_holder">
           <?php print wpestate_dashboard_widget_history($agent_list); ?>
         </div>
-
-
         </div>
     </div>
 </div>
-
 
 <?php get_footer(); ?>
