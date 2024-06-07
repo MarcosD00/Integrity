@@ -7,9 +7,6 @@ $curent_fav     = wpestate_return_favorite_listings_per_user();
 $is_dasboard_fav= true;
 get_header();
 $wpestate_options=wpestate_page_details($post->ID);
-
-
-
 ?>
 
 <div class="row row_user_dashboard">
