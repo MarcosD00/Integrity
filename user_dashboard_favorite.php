@@ -50,10 +50,7 @@ $wpestate_options=wpestate_page_details($post->ID);
                        'post__in'         => $curent_fav
                    );
 
-
                    $prop_selection = new WP_Query($args);
-
-
 
                    while ($prop_selection->have_posts()): $prop_selection->the_post();
                       include( locate_template('templates/dashboard-templates/dashboard_listing_unit.php'));
