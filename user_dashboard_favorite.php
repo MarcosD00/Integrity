@@ -32,7 +32,6 @@ $wpestate_options=wpestate_page_details($post->ID);
                 $status_value   = intval($_GET['status']);
               }
 
-
               print '<div class="wpestate_dashboard_table_list_header row">';
                     print '<div class="col-md-4">'.esc_html__('Property','wpresidence').'</div>';
                     print '<div class="col-md-2">'.esc_html__('Category','wpresidence').'</div>';
