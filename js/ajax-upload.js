@@ -98,8 +98,6 @@ jQuery(document).ready(function($) {
                 $('#image_warn').remove();
                 $('#' + file.id).remove();
 
-
-
                 if (result.success) {
 
                     $('#profile-image').attr('src',result.html);
