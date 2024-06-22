@@ -54,8 +54,7 @@ jQuery(document).ready(function($) {
 
                     if(should_warn===1){
                         $('.image_max_warn').remove();
-                        $('#imagelist').before('<div class="image_max_warn" style="width:100%;float:left;">'+ajax_vars.warning_max+'</div>');
-                        
+                        $('#imagelist').before('<div class="image_max_warn" style="width:100%;float:left;">'+ajax_vars.warning_max+'</div>');    
                     }
 
                     if( array_cut==-1 ){
