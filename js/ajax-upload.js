@@ -75,7 +75,6 @@ jQuery(document).ready(function($) {
 
                 up.refresh(); // Reposition Flash/Silverlight
                 uploader.start();
-
             });
 
             uploader.bind('UploadProgress', function (up, file) {
