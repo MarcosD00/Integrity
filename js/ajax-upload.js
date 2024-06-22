@@ -18,7 +18,6 @@ jQuery(document).ready(function($) {
 
                 //current_no_up=current_no_up+ajax_vars.max_images;
 
-
                 if(ajax_vars.max_images>0){ // if is not unlimited
                     if(current_no_up===0){
                         array_cut=ajax_vars.max_images;
@@ -56,7 +55,7 @@ jQuery(document).ready(function($) {
                     if(should_warn===1){
                         $('.image_max_warn').remove();
                         $('#imagelist').before('<div class="image_max_warn" style="width:100%;float:left;">'+ajax_vars.warning_max+'</div>');
-
+                        
                     }
 
                     if( array_cut==-1 ){
@@ -66,7 +65,6 @@ jQuery(document).ready(function($) {
                         up=[];
                         return;
                     }
-
                 }
 
                 $.each(files, function (i, file) {
