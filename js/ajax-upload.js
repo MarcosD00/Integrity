@@ -184,8 +184,6 @@ jQuery(document).ready(function($) {
  });
 
 
-
-
 function wpestate_thumb_setter(){
     "use strict";
     jQuery('#imagelist img').dblclick(function(){
