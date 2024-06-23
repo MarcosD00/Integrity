@@ -197,7 +197,6 @@ function wpestate_thumb_setter(){
  }
 
 
-
 function wpestate_delete_binder(){
     "use strict";
     jQuery('#imagelist i.fa-trash-alt').unbind('click');
