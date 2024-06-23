@@ -91,8 +91,6 @@ jQuery(document).ready(function($) {
                 up.refresh(); // Reposition Flash/Silverlight
             });
 
-
-
             uploader.bind('FileUploaded', function (up, file, response) {
                 var result = $.parseJSON(response.response);
                 $('#image_warn').remove();
