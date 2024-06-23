@@ -171,7 +171,6 @@ jQuery(document).ready(function($) {
                 uploader.refresh();
             });
 
-
             $('#aaiu-uploader-floor').on( 'click', function(e) {
                 e.preventDefault();
                 $('#aaiu-uploader').trigger('click');
