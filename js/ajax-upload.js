@@ -183,7 +183,6 @@ jQuery(document).ready(function($) {
     uploader.refresh();
  });
 
-
 function wpestate_thumb_setter(){
     "use strict";
     jQuery('#imagelist img').dblclick(function(){
