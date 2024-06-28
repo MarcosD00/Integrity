@@ -61,8 +61,7 @@ if(isset( $post->ID)){
 
               <?php include( locate_template('templates/preview_template.php') ); ?>
         </form>
-
-
+        
 </div>
 
 <?php
