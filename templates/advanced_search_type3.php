@@ -61,7 +61,6 @@ if ( $extended_search =='yes' ){
             ?>
             <input name="submit" type="submit" class="wpresidence_button" id="advanced_submit_3" value="<?php esc_html_e('Search','wpresidence');?>">
             <?php include( locate_template('templates/preview_template.php') ); ?>
-
         </form>
     </div>
     <div style="clear:both;"></div>
