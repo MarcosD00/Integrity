@@ -21,7 +21,6 @@ if ( $extended_search =='yes' ){
     if($show_adv_search_visible=='no'){
         $close_class='adv-search-1-close-extended';
     }
-
 }
 ?>
 
