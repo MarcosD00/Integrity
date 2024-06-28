@@ -36,7 +36,6 @@ if ( $extended_search =='yes' ){
         }
         ?>
 
-
         <div class="adv5-holder">
             <?php
             $force_location                 =   wpresidence_get_option('wp_estate_force_location_only','');
