@@ -143,7 +143,6 @@ function wpestate_show_adv6_form($adv_search_what,$adv_search_fields_no_per_row,
         print '</div>';
         }
 
-
     print '<div class="col-md-'.esc_attr($search_col_submit).'">';
     print '<input name="submit" type="submit" class="wpresidence_button advanced_submit_4"  value="'.esc_html__('Search Properties','wpresidence').'">';
     print '</div>';
