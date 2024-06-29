@@ -43,7 +43,6 @@ $adv6_min_price         =   wpresidence_get_option('wp_estate_adv6_min_price');
             $adv_search_fields_no_per_row   =   ( floatval( wpresidence_get_option('wp_estate_search_fields_no_per_row') ) );
             if ( $custom_advanced_search == 'yes'){
 
-                
                     print '<div role="tabpanel" class="adv_search_tab '.wpestate_search_tab_align().' " id="tab_prpg_adv6">';
 
                         $tab_items      =   '';
