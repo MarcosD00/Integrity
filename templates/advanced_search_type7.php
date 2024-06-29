@@ -66,7 +66,6 @@ $adv6_min_price         =   wpresidence_get_option('wp_estate_adv6_min_price');
                             <a href="#'.urldecode($use_name).'" aria-controls="'.urldecode($use_name).'" role="tab" class="adv6_tab_head" data-toggle="tab">'.urldecode (str_replace("-"," ",$use_title_name)).'</a>
                             </div>';
 
-
                             $tab_content.='
                             <div role="tabpanel" class="tab-pane '.esc_attr($active).'" id="'.urldecode($use_name).'">
                                 <form  role="search" method="get" action="'.esc_url($adv_submit).'" >';
