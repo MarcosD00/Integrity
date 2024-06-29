@@ -21,7 +21,6 @@ if ( $extended_search =='yes' ){
     if($show_adv_search_visible=='no'){
         $close_class='adv-search-1-close-extended';
     }
-
 }
 $adv6_taxonomy          =   wpresidence_get_option('wp_estate_adv6_taxonomy');
 $adv6_taxonomy_terms    =   wpresidence_get_option('wp_estate_adv6_taxonomy_terms');
