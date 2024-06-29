@@ -117,7 +117,6 @@ $adv6_min_price         =   wpresidence_get_option('wp_estate_adv6_min_price');
        <div style="clear:both;"></div>
 </div>
 
-
 <?php
 
 function wpestate_show_adv6_form($adv_search_what,$adv_search_fields_no_per_row,$action_select_list,$categ_select_list,$select_city_list,$select_area_list,$select_county_state_list,$use_name,$term_id){
