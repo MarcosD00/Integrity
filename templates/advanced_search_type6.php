@@ -25,7 +25,6 @@ if ( $extended_search =='yes' ){
 $adv6_taxonomy          =   wpresidence_get_option('wp_estate_adv6_taxonomy');
 $adv6_taxonomy_terms    =   wpresidence_get_option('wp_estate_adv6_taxonomy_terms');
 
-
 ?>
 <div class="adv-search-1 <?php echo esc_attr($close_class.' '.$extended_class);?>" id="adv-search-6" >
         <?php
