@@ -71,7 +71,6 @@ if(isset($_GET['elementor_form_id']) && intval($_GET['elementor_form_id'])!=0 ){
         }
 
 }else{
-    
 
     if(isset($_GET['term_counter'])){
         $adv_search_fields_no       =   floatval( wpresidence_get_option('wp_estate_adv_search_fields_no') );
