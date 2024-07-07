@@ -69,8 +69,7 @@ if(isset($_GET['elementor_form_id']) && intval($_GET['elementor_form_id'])!=0 ){
             $adv_search_how     =   $adv_search_how[$term_id_elementor];
             $adv_search_label   =   $adv_search_label[$term_id_elementor];
         }
-        
-   
+
 }else{
     
 
