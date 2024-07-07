@@ -130,7 +130,6 @@ if($wpestate_no_listins_per_row==3){
 			$args  = array();
 		}
 		 
-	 
         $agent_selection = new WP_Query($args);
 
         $per_row_class='';
