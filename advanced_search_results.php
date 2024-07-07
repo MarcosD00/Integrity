@@ -128,7 +128,6 @@ if( !isset($_GET['is2']) ){
     $mapargs=$args;
 }
 
-
 if( isset($_GET['geolocation_lat'])     && $_GET['geolocation_lat']!='' && 
     isset($_GET['geolocation_long'])    && $_GET['geolocation_long']!='' 
    ){
