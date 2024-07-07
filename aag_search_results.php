@@ -141,7 +141,6 @@ if($wpestate_no_listins_per_row==3){
         if( $agent_selection->have_posts() ):
 		        
         while ($agent_selection->have_posts()): $agent_selection->the_post();
-   
 			
                 // if post type set - define taxonomies
                 switch( $_search_post_type ){
