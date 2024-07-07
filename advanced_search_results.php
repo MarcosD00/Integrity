@@ -83,7 +83,6 @@ if(isset($_GET['elementor_form_id']) && intval($_GET['elementor_form_id'])!=0 ){
 
 }
 
-
 if( !isset($_GET['is2']) ){
     //////////////////////////////////////////////////////////////////////////////////////
     ///// type1 or type 3
