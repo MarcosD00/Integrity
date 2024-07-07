@@ -48,7 +48,6 @@ if($wpestate_prop_unit=='list'){
     $align_class=   'the_list_view';
 }
 
-
 $adv_search_what    =   wpresidence_get_option('wp_estate_adv_search_what','');
 $adv_search_how     =   wpresidence_get_option('wp_estate_adv_search_how','');
 $adv_search_label   =   wpresidence_get_option('wp_estate_adv_search_label','');
