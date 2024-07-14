@@ -19,7 +19,6 @@ send_nosniff_header();
 header('Cache-Control: no-cache');
 header('Pragma: no-cache');
 
-
 $action = esc_attr(trim($_POST['action']));
 
 
