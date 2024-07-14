@@ -30,7 +30,6 @@ $allowed_actions = array(
     'wpestate_custom_adv_ajax_filter_listings_search',
     'wpestate_classic_ondemand_pin_load_type2_tabs',
     'wpestate_load_blog_list_widget_wrapper',
-    
 );
 
 if(in_array($action, $allowed_actions)){
