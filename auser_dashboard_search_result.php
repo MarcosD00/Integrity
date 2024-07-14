@@ -22,7 +22,6 @@ if ( ! isset( $_POST['dashboard_searches_nonce'] )  || ! wp_verify_nonce( $_POST
     exit;
 }
 
-
 if( isset( $_GET['delete_id'] ) ) {
     if( !is_numeric($_GET['delete_id'] ) ){
           exit('you don\'t have the right to delete this');
