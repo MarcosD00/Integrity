@@ -141,7 +141,6 @@ if( isset($_GET['geolocation_lat'])     && $_GET['geolocation_lat']!='' &&
         $geo_rad    =   wpresidence_get_option('wp_estate_initial_radius','');
     }
     
-    
 
     $args  =$mapargs     = wpestate_geo_search_filter_function($args, $geo_lat, $geo_long, $geo_rad);
 }
