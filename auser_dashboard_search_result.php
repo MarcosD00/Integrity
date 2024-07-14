@@ -17,7 +17,6 @@ $processor_link                 =   wpestate_get_template_link('processor.php');
 $agent_list                     =   (array)get_user_meta($userID,'current_agent_list',true);
 $wpestate_options               =   wpestate_page_details($post->ID);
 
-
 if ( ! isset( $_POST['dashboard_searches_nonce'] )  || ! wp_verify_nonce( $_POST['dashboard_searches_nonce'], 'dashboard_searches' ) ) {
     esc_html_e('Sorry, your nonce did not verify.','wpresidence');
     exit;
