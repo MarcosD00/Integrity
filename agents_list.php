@@ -65,7 +65,6 @@ if($wpestate_no_listins_per_row==3){
             $per_row_class =' agents_4per_row ';
         }
         
-        
         while ($agent_selection->have_posts()): $agent_selection->the_post();
             include( locate_template($agent_unit) ) ;      
         endwhile;
