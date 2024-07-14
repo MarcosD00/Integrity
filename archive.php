@@ -41,7 +41,6 @@ if ( 'wpestate_message' == get_post_type() || 'wpestate_invoice' == get_post_typ
            ?>
            </div>
         <?php wpestate_pagination('', $range = 2); ?>
-
     </div>
 
 <?php include get_theme_file_path('sidebar.php'); ?>
