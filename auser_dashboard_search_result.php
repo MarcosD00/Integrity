@@ -50,7 +50,6 @@ if( isset( $_GET['delete_id'] ) ) {
              }
 
             wp_delete_post( $delete_id );
-
         }
     }
 }
