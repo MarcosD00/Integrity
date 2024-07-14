@@ -84,7 +84,6 @@ get_header();
                     's'                         => $page_title
                );
 
-
         $prop_selection = new WP_Query($args);
         if( !$prop_selection->have_posts() ){
             print'<div class="col-md-12 row_dasboard-prop-listing">';
