@@ -58,7 +58,6 @@ if( isset( $_GET['delete_id'] ) ) {
 get_header();
 ?>
 
-
 <div class="row row_user_dashboard">
     <?php  get_template_part('templates/dashboard-left-col');  ?>
 
