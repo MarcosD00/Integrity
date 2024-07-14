@@ -21,7 +21,6 @@ header('Pragma: no-cache');
 
 $action = esc_attr(trim($_POST['action']));
 
-
 $allowed_actions = array(
     'wpestate_property_modal_listing_details',
     'wpestate_property_modal_listing_details_second',
