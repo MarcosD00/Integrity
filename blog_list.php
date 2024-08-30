@@ -19,7 +19,7 @@ $wpestate_no_listins_per_row =   intval( wpresidence_get_option('wp_estate_blog_
 
               
         <div class="blog_list_wrapper">    
-            
+
         <?php
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 0;
             $args = array(
@@ -38,7 +38,8 @@ $wpestate_no_listins_per_row =   intval( wpresidence_get_option('wp_estate_blog_
         
            
         </div>
-        <?php wpestate_pagination($blog_selection->max_num_pages, $range = 2); ?>    
+        <?php wpestate_pagination($blog_selection->max_num_pages, $range = 2); ?>
+            
     </div><!-- end 9col container-->
     
 <?php  include get_theme_file_path('sidebar.php'); ?>
