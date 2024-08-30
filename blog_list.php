@@ -19,6 +19,7 @@ $wpestate_no_listins_per_row =   intval( wpresidence_get_option('wp_estate_blog_
 
               
         <div class="blog_list_wrapper">    
+            
         <?php
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 0;
             $args = array(
