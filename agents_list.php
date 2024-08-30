@@ -68,7 +68,6 @@ if($wpestate_no_listins_per_row==3){
         while ($agent_selection->have_posts()): $agent_selection->the_post();
             include( locate_template($agent_unit) ) ;      
         endwhile;
-        
         ?> 
         
         </div>
