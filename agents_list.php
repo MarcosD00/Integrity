@@ -33,6 +33,7 @@ if($wpestate_no_listins_per_row==3){
         $col_org    =   3;
     }
 }
+
 ?>
 
 <div class="row">
@@ -71,7 +72,7 @@ if($wpestate_no_listins_per_row==3){
         ?> 
         
         </div>
-        
+
         <?php wpestate_pagination($agent_selection->max_num_pages, $range = 2); ?>         
 
     </div><!-- end 9col container-->
