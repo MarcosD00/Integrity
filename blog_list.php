@@ -16,7 +16,6 @@ $wpestate_no_listins_per_row =   intval( wpresidence_get_option('wp_estate_blog_
         <?php } ?>
         <div class="single-content"><?php the_content();?></div>   
         <?php endwhile; // end of the loop.  ?>  
-
               
         <div class="blog_list_wrapper">    
 
