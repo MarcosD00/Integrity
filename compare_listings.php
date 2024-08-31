@@ -91,7 +91,6 @@ wp_reset_query();
 wp_reset_postdata();
 ?>
 
-
 <div class="row">
     <?php get_template_part('templates/breadcrumbs'); ?>
     
