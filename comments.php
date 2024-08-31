@@ -46,7 +46,6 @@ $req        =   get_option( 'require_name_email' );
 $aria_req   =   ( $req ? " aria-required='true'" : '' );
 $required_text= '  ';
 
-
 $args = array(
     'id_form'           => 'commentform',
     'class_submit'      =>  'wpresidence_button',
