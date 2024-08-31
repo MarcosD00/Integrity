@@ -35,7 +35,6 @@ $wpestate_no_listins_per_row =   intval( wpresidence_get_option('wp_estate_blog_
             endwhile;
             wp_reset_query();
         ?>
-        
            
         </div>
         <?php wpestate_pagination($blog_selection->max_num_pages, $range = 2); ?>
