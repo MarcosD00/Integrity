@@ -35,7 +35,6 @@ $social_defaults    =   wpestate_return_social_links_icons();
         <?php get_template_part('templates/ajax_container'); ?>
         
         <?php while (have_posts()) : the_post(); ?>
-           
          
             <div class="contact-wrapper row">    
            
