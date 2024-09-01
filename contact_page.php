@@ -27,7 +27,6 @@ if (function_exists('icl_translate') ){
     $co_address      = esc_html( stripslashes ( wpresidence_get_option('wp_estate_co_address', '') ) );
 }
 
-
 $agent_email        =   $company_email;
 $social_defaults    =   wpestate_return_social_links_icons();
           
