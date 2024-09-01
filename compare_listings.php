@@ -179,8 +179,7 @@ wp_reset_postdata();
                             }
                             print'</div>';
                         }
-                        print'</div>';
-                                                     
+                        print'</div>';                                
                     }
                     ?>
         
