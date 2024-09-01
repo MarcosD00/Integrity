@@ -11,7 +11,6 @@ if(!function_exists('wpestate_residence_functionality')){
 get_header();
 
 
-
 $wpestate_options   =   wpestate_page_details($post->ID);
 $company_name       =   esc_html( stripslashes( wpresidence_get_option('wp_estate_company_name', '') ) );
 $company_picture    =   esc_html( stripslashes( wpresidence_get_option('wp_estate_company_contact_image', 'url') ) );
