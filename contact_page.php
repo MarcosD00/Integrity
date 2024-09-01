@@ -28,7 +28,6 @@ if (function_exists('icl_translate') ){
 }
 
 
-
 $agent_email        =   $company_email;
 $social_defaults    =   wpestate_return_social_links_icons();
           
