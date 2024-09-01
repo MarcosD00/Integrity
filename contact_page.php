@@ -7,7 +7,6 @@ if(!function_exists('wpestate_residence_functionality')){
     exit();
 }
 
-
 get_header();
 
 
