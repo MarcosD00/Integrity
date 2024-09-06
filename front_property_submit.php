@@ -131,7 +131,6 @@ if( !empty($custom_fields)){
     }
 }
 
-
 if(is_array($property_status_array)){
     foreach ($property_status_array as $key=>$term) {
         $property_status.='<option value="'.$term->name.'" >'.stripslashes($term->name).'</option>';
