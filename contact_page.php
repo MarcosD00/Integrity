@@ -99,7 +99,6 @@ $social_defaults    =   wpestate_return_social_links_icons();
                 <?php } ?>
                 
             </div>    
-           
                 
             <div class="single-content contact-content">   
                 <div class="agent_contanct_form "> 
