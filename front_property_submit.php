@@ -169,7 +169,6 @@ if($wpestate_no_listins_per_row==3){
     }
 }
 
-
 /// defaults
 global $option_video;
 global $property_status;
