@@ -113,7 +113,6 @@ $social_defaults    =   wpestate_return_social_links_icons();
         <?php endwhile; // end of the loop. ?>
     </div>
   
-    
 <?php  include get_theme_file_path('sidebar.php'); ?>
 </div>   
 <?php get_footer(); ?>
