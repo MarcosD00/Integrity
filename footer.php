@@ -15,7 +15,6 @@ if( $show_foot=='yes' && !wpestate_half_map_conditions ($post_id) ){
   }
 }
 
-
 ?>
 
 </div> <!-- end website wrapper ed-->
