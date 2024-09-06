@@ -144,7 +144,6 @@ foreach ($slider_values as $value) {
     $option_slider.='>'.esc_html($value).'</option>';
 }
 
-
 $wpestate_options=wpestate_page_details($post->ID);
 global $wpestate_no_listins_per_row;
 $wpestate_no_listins_per_row       =   intval( wpresidence_get_option('wp_estate_agent_listings_per_row', '') );
