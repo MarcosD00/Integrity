@@ -137,7 +137,6 @@ if(is_array($property_status_array)){
     }
 }
 
-
 $option_slider='';
 $slider_values = array('full top slider', 'small slider');
 foreach ($slider_values as $value) {
