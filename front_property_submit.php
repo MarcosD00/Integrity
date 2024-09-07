@@ -186,7 +186,6 @@ $all_submission_fields          =   wpestate_return_all_fields();
 
 if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit' && is_user_logged_in()) {
 
-
     $parent_userID              =   wpestate_check_for_agency($userID);
     $paid_submission_status     =    esc_html ( wpresidence_get_option('wp_estate_paid_submission','') );
     $user_pack                  =   get_the_author_meta( 'package_id' , $parent_userID );
