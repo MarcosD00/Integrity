@@ -280,7 +280,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $prop_stat                      =   wp_kses( $_POST['property_status'],$allowed_html);
         }
 
-
         $property_status                =   '';
 
         if(is_array($property_status_array)){
