@@ -270,7 +270,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $energy_index                   =   wp_kses( $_POST['energy_index'],$allowed_html);
         }
         // end
-
         $country_selected                   =   '';
         if(isset($_POST['property_country'])){
             $country_selected               =   wp_kses( $_POST['property_country'],$allowed_html);
