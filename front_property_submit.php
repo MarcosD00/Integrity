@@ -260,7 +260,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $property_zip                   =   wp_kses( $_POST['property_zip'],$allowed_html);
         }
 
-
         // energy effect
         $energy_class                   =   '';
         if(isset($_POST['energy_class'])){
