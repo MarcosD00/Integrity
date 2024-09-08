@@ -308,7 +308,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
         }
 
 
-
         $property_second_price                   =   '';
         if(isset($_POST['property_second_price'])){
             $property_second_price          =   wp_kses( esc_html($_POST['property_second_price']),$allowed_html);
