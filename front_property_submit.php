@@ -323,8 +323,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
         }
 
 
-
-
         $property_year_tax                   =   '';
         if(isset($_POST['property_year_tax'])){
             $property_year_tax          =   wp_kses( esc_html($_POST['property_year_tax']),$allowed_html);
