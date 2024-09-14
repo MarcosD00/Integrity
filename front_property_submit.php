@@ -449,7 +449,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $google_view_check=' ';
         }
 
-      
 
         $property_hide_map_marker   ='';
         if(isset($_POST['property_hide_map_marker'])){
