@@ -526,7 +526,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
                $new_status='publish';
             }
 
-
             $post = array(
                 'post_title'	=> $submit_title,
                 'post_content'	=> $submit_description,
