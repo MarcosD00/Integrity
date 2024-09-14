@@ -332,7 +332,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $property_hoa          =   wp_kses( esc_html($_POST['property_hoa']),$allowed_html);
         }
 
-
         $property_size                   =   '';
         if(isset($_POST['property_size'])){
             $property_size                  =   wp_kses( esc_html($_POST['property_size']),$allowed_html);
