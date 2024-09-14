@@ -461,7 +461,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $property_hide_map_marker_check=' ';
         }
 
-
         $google_camera_angle                   =   '';
         if(isset($_POST['google_camera_angle'])){
             $google_camera_angle            =   intval( $_POST['google_camera_angle']);
