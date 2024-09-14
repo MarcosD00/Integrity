@@ -417,7 +417,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
                           ) );
 
 
-
         $embed_video_id                   =   '';
         if(isset($_POST['embed_video_id'])){
             $embed_video_id                 =   wp_kses( esc_html($_POST['embed_video_id']),$allowed_html);
