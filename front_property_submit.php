@@ -485,7 +485,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $attchs =   explode(',',$_POST['attachid']);
         }
 
-
         // save custom fields
 
         $i=0;
