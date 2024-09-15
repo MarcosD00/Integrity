@@ -570,7 +570,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             }
             //end uploaded images
 
-
             if( isset($prop_category->name) ){
                 wp_set_object_terms($post_id,$prop_category->name,'property_category');
             }
