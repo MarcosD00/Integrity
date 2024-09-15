@@ -666,7 +666,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             update_post_meta($post_id, 'pay_status', 'not paid');
             update_post_meta($post_id, 'page_custom_zoom', 16);
 
-
             $user_id_agent            =   get_the_author_meta( 'user_agent_id' , $current_user->ID  );
             update_post_meta($post_id, 'property_agent', $user_id_agent);
 
