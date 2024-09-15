@@ -559,7 +559,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
                                 'post_parent' => $post_id,
                                 'menu_order'=>$order
                             ));
-
                 }
             }
 
