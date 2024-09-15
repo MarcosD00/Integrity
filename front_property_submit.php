@@ -644,7 +644,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             }
 
 
-
             update_post_meta($post_id, 'property_bedrooms', $property_bedrooms);
             update_post_meta($post_id, 'property_bathrooms', $property_bathrooms);
             update_post_meta($post_id, 'property_price', $property_price);
