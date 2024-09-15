@@ -670,7 +670,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             $user_id_agent            =   get_the_author_meta( 'user_agent_id' , $current_user->ID  );
             update_post_meta($post_id, 'property_agent', $user_id_agent);
 
-
             // save custom fields
             $custom_fields = wpresidence_get_option( 'wp_estate_custom_fields', '');
 
