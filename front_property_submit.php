@@ -711,9 +711,7 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
                 }
             }
 
-
             wp_set_object_terms($post_id,$prop_stat,'property_status',true);
-
 
             wpestate_update_hiddent_address_single($post_id);
 
@@ -736,8 +734,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
                 //end if user can submit
         }
 } // end post
-
-
 
 get_header();
 $wpestate_options=wpestate_page_details($post->ID);
