@@ -701,7 +701,6 @@ if( isset($_POST) && isset($_POST['action']) && $_POST['action']=='front_submit'
             }
 
 
-
             if(is_array($property_features)){
                 foreach($property_features as $key => $term){
                     $feature_name   =   $term->slug;
