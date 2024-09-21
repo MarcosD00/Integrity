@@ -753,7 +753,6 @@ if( $user_small_picture_id == '' ){
 
 }
 
-
 ?>
 
 <div class="row">
