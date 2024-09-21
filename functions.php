@@ -184,7 +184,6 @@ function wpestate_admin_notice() {
         }
     }
 
-
     if (is_admin() &&   $pagenow=='edit-tags.php'  && $typenow=='estate_property') {
 
         if( !is_array($wpestate_notices) ||
