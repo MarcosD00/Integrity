@@ -846,7 +846,6 @@ if( $user_small_picture_id == '' ){
                 </div>
                 <?php wp_nonce_field( 'submit_property_front_action', 'submit_property_front_nonce',false); ?>
 
-
         </form>
     </div><!-- end 9col container-->
 </div>
