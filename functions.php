@@ -154,7 +154,6 @@ function wpestate_admin_notice() {
         }
     }
 
-
     if ( !extension_loaded('mbstring')) {
         if( !is_array($wpestate_notices) ||
             !isset($wpestate_notices['wp_estate_mb_string']) ||
