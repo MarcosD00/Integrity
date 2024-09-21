@@ -201,7 +201,6 @@ function wpestate_admin_notice() {
 
 }
 
-
 add_action( 'admin_notices', 'wpestate_admin_notice' );
 add_action('after_setup_theme', 'wp_estate_init');
 if( !function_exists('wp_estate_init') ):
