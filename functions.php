@@ -135,14 +135,12 @@ function wpestate_admin_notice() {
             !isset($wpestate_notices['wp_estate_php_version']) ||
             ( isset($wpestate_notices['wp_estate_php_version']) && $wpestate_notices['wp_estate_php_version']!='yes')  ){
 
-
             $version = explode('.', PHP_VERSION);
             print '<div data-notice-type="wp_estate_php_version"  class="wpestate_notices updated settings-error error notice is-dismissible">
                 <p>'.esc_html__( 'Your PHP version is ', 'wpresidence' ).' '.$version[0].'.'.$version[1].'.'.$version[2].'. We recommend upgrading the PHP version to at least 5.6.1. The upgrade should be done on your server by your hosting company. </p>
             </div>';
         }
     }
-
 
     if( !extension_loaded('gd') && !function_exists('gd_info')){
         if( !is_array($wpestate_notices) ||
