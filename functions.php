@@ -182,7 +182,6 @@ function wpestate_admin_notice() {
                 </div>';
             }
         }
-
     }
 
 
