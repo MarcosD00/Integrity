@@ -198,7 +198,6 @@ function wpestate_admin_notice() {
 
     $ajax_nonce = wp_create_nonce( "wpestate_notice_nonce" );
     print '<input type="hidden" id="wpestate_notice_nonce" value="'.esc_html($ajax_nonce).'"/>';
-
 }
 
 add_action( 'admin_notices', 'wpestate_admin_notice' );
