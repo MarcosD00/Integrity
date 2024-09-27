@@ -235,8 +235,6 @@ if( !function_exists('wp_estate_init') ):
     }
 endif; // end   wp_estate_init
 
-
-
 if( !function_exists('wpestate_theme_update') ):
     function wpestate_theme_update() {
         if ( NULL === get_option( 'wp_estate_submission_page_fields', NULL ) ) {
