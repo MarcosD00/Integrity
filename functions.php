@@ -257,7 +257,6 @@ if (is_admin()) {
     add_action('admin_menu', 'wpestate_manage_admin_menu');
 }
 
-
 if( !function_exists('wpestate_manage_admin_menu') ):
 
     function wpestate_manage_admin_menu() {
