@@ -248,7 +248,6 @@ if( !function_exists('wpestate_theme_update') ):
         }
     }
 
-
 endif;
 
 
