@@ -297,7 +297,6 @@ function wpestate_generate_options_css() {
         $general_font   = esc_html( get_option('wp_estate_general_font', '') );
         $custom_css     = stripslashes  ( wpresidence_get_option('wp_estate_custom_css')  );
 
-
         ob_start();
             print "<style type='text/css'>" ;
             require_once get_theme_file_path('libs/customcss.php');
