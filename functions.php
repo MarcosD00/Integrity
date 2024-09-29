@@ -313,7 +313,6 @@ function wpestate_generate_options_css() {
 }
 endif; // end   generate_options_css
 
-
 function wpestate_css_compress($buffer) {
     $buffer = str_replace(array("\r\n", "\r", "\n", "\t", '  ', '    ', '    '), '', $buffer);
     return $buffer;
