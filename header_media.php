@@ -41,7 +41,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
         $header_type                =   get_post_meta ( $post->ID, 'header_type', true);
     }
 
-
    
         
         if( is_singular( 'estate_agency') ){
