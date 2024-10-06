@@ -22,7 +22,6 @@ $wpestate_options=wpestate_page_details($post->ID);
         <?php endwhile; // end of the loop. ?>
     </div>
   
-    
 <?php include get_theme_file_path('sidebar.php'); ?>
 </div>   
 <?php get_footer(); ?>
