@@ -15,7 +15,6 @@ if(isset($post->ID)){
 if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
     wpestate_show_advanced_search($post_id);
 }
-
 ?>
 
 
