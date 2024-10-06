@@ -17,7 +17,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
 }
 ?>
 
-
 <?php
     if ( is_404() || is_category() || is_tax() || is_archive() || is_search() ){
         $header_type=0;
