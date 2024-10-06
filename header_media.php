@@ -48,7 +48,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
             $header_type=22;
         }
    
-
     if( isset($post->ID) && !wpestate_half_map_conditions ($post->ID) ){
         $custom_image               =   esc_html( esc_html(get_post_meta($post->ID, 'page_custom_image', true)) );
         $rev_slider                 =   esc_html( esc_html(get_post_meta($post->ID, 'rev_slider', true)) );
