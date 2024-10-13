@@ -189,7 +189,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
                 case 4://google maps
                     include( locate_template('templates/google_maps_base.php') );
                     break;
-              
             }
         } // end if header
 
