@@ -101,7 +101,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
             $local_pgpr_slider_type_status=  get_post_meta($post->ID, 'local_pgpr_slider_type', true);
 
           
-            
         }
         if( is_page_template( 'splash_page.php' ) ){
             $header_type=20;
