@@ -191,7 +191,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
                     break;
               
             }
-
         } // end if header
 
 
