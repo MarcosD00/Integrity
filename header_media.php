@@ -107,7 +107,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
     }
 
 
-
     if( is_page_template( 'property_list_half.php' ) ){
         $header_type=5;
     }
