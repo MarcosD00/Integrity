@@ -192,7 +192,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
             }
         } // end if header
 
-
     $global_header_type         =   wpresidence_get_option('wp_estate_header_type','');
     $show_adv_search_slider     =   wpresidence_get_option('wp_estate_show_adv_search_slider','');
     $show_mobile                =   0;
