@@ -102,7 +102,6 @@ if($search_on_start=='yes' && $page_template != 'splash_page.php'  ){
 
           
             
-            
         }
 
         if( is_page_template( 'splash_page.php' ) ){
